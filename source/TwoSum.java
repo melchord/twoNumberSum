@@ -32,12 +32,13 @@ public class TwoSum{
                         sumArray[0] = array[j];
                         sumArray[1] = array[i];
                     }
+                    return sumArray;
                 }
 
             }
         }
 
-        return sumArray;
+        return new int[0];
 
     }
 

@@ -1,10 +1,11 @@
+package source;
 /**
  * Class to handle all the logic of finding if a target sum is within
  * an array
  * @author - Melchor Dominguez
  * @version 10/25/2019
  */
-public class twoSum{
+public class TwoSum{
     
     /**
      * Function which will determine if there are two numbers
@@ -16,7 +17,7 @@ public class twoSum{
      */
     public static int[] twoNumberSum(int[] array, int targetSum){
         //Initialize an array with a max size of 2
-        int[] return sumArray = new int[2];
+        int[] sumArray = new int[2];
 
         //algorithm to determine if there are 2 numbers which satisfy the target sum
         //could later be broken up in helper method(s)
